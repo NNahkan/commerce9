@@ -1,0 +1,64 @@
+.confirmation {
+	flex: 4 1;
+	padding: 20px;
+	border-right: 1px solid white;
+}
+
+.confirmationInfo {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding:10px;
+	justify-content: space-evenly;
+}
+
+.confirmation span {
+	font-size: 6rem;
+	color: red;
+}
+
+.confirmationSucceed div {
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	margin-bottom: 5px;
+	line-height: 1;
+}
+
+.confirmationSucceed p {
+	font-size: 12px;
+	padding:10px 20px;
+}
+
+.confirmationButtons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.confirmation a {
+	text-decoration: none;
+	color: white;
+}
+
+.confirmationButtons button {
+	padding:20px;
+	width: fit-content;
+	border-radius: 20px;
+	border: none;
+	background-color: #8be7f374;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.confirmationButtons button:last-child {
+	background-color: black;
+}
+
+.confirmation button:hover {
+	box-shadow: inset 0 0 10px #f3dc8b;
+}

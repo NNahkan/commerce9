@@ -1,0 +1,64 @@
+*, :after, :before {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,p {
+	margin: 0;
+}
+
+.input-root {
+	border: 1px solid rgb(162, 159, 159);
+	border-radius: 5px;
+	padding: 10px;
+	line-height: 1.2;
+	width: 100%;
+	
+}
+
+.errorLogin {
+	color: red;
+	font-size: 13px;
+	position: absolute;
+	top: 3rem;
+}
+
+.pass-info {
+	font-size: 9.3px;
+	text-align: left;
+	padding-right: 2px;
+	margin:20px 0 0;
+	cursor: default;
+}
+
+input[type="submit"] {
+	background: #e43c2a;
+	border: 1px solid #e43c2a;
+	border-radius: 20px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	width: 270px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.blue-wrap input[type="submit"] {
+	background: #415a92;
+	border: 1px solid #415a92;
+}
+
+.eye {
+	position: absolute;
+	top: 20px;
+	right: 12px;
+	width: 16px;
+	height: 16px;
+	color: black;
+}
+
+.shopCart {
+	display: flex;
+	
+}
+
+

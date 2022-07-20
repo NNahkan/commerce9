@@ -1,0 +1,20 @@
+.previousPageBtn {
+	position: absolute;
+	border: none;
+	bottom: -1rem;
+	width: 10rem;
+	padding: 12px;
+	border-radius: 20px;
+	background-color: #f3c98b74;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.previousPageBtn:hover {
+	background-color: #f3c98b0f;
+	box-shadow: 0 0 10px 2px #f3c98bf9;
+ }

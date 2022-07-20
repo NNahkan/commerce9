@@ -1,0 +1,66 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+
+.shipWrap {
+	display: flex;
+	width: 100%;
+	margin: 13px 0;
+	height: 35px;
+	flex: 1 1;
+	position: relative;
+}
+
+.shipLabel {
+	flex: 35% 0;
+}
+
+.shipInput {
+	flex: 1;
+	padding-left: 10px;
+}
+
+.errorShipping {
+	color: red;
+	font-size: 14px;
+	position: absolute;
+	top: 100%;
+	left: 35%;
+}
+
+/* shippingMethod */
+
+.shipMethodWrapper {
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+}
+
+.shipMethodWrapper h2 {
+	margin: 10px 0;
+}
+
+.methodOptionWrapper {
+	display: flex;
+	margin-bottom: 10px;
+	position: relative;
+	pointer-events: inherit;
+}
+
+.methodOptionWrapper a {
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	bottom: -1rem;
+}
+
+.method {
+	flex: 20% 0;
+}
+
+
