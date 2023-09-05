@@ -1,18 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-
-/* I notice too late  about that I should do like
-<Login/>
-<Cart/>
-<Shipping/>
-<Payment/>
-<Confirmation/>
-
-Sorry for that..
-
-I try to clean code as much as I can
-*/
-
-
 import React from "react";
 import InputBase from "../inputBase/InputBase";
 import s from "../Form/Form.module.css";
